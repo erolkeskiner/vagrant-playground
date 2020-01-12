@@ -9,4 +9,4 @@ apt-get install -y git-core python-pip python-virtualenv nginx
 pip install -r requirements.txt
 cd app/
 export FLASK_APP=hello.py
-nohup flask run --host=0.0.0.0 &> $HOME/nohup.out&
+flask run --host=0.0.0.0 > $HOME/out.log 2>&1 &
