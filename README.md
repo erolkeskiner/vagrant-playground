@@ -16,3 +16,6 @@ vagrant up
 ```
 
 When the guest virtual machine up and running, [the provision script](https://github.com/erolkeskiner/vagrant-playground/blob/master/deploy/bootstrap.sh) will install necessary dependencies for Flask, then will run the Flask app located in the `app` directory.
+
+Once the Flask up is up and running, changes made in the application can be reflected with the command `vagrant reload default --provision`. 
+`default` is the default guest virtual machine name. The command above must me modified if another host name is set in `Vagrantfile`.
