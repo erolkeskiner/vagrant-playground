@@ -22,4 +22,4 @@ Once the Flask up is up and running, changes made in the application can be refl
 vagrant reload default --provision
 ``` 
 
-`default` is default guest virtual machine name. The command above must me modified if another host name is set in `Vagrantfile`.
+`default` is default guest virtual machine name. The command above must be modified if another host name is set in `Vagrantfile`.
